@@ -10,10 +10,12 @@ No arquivo ```automato.cpp``` está implementado uma classe chamada AFN
 ```automato.addEstados("q1,q2,q3");
 automato.setEstadoInicial("q1");
 automato.addEstadosFinais("q2");
-automato.addSimbolos("0,1,*");```
+automato.addSimbolos("0,1,*");
+```
 
 ##Para incluir uma transição:##
-```automato.addTransicao("q1","q2","1");```
+```automato.addTransicao("q1","q2","1");
+```
 
 ##Transformar o AFN para AFD basta chamar a função ```automato.converter();```##
 ###Será mostrado os estados e as suas transições como no exemplo:###
