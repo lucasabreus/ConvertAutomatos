@@ -174,30 +174,6 @@ class AFN {
 int main () {
 	AFN automato;
 
-	/*automato.addEstados("q1,q2,q3,q4");
-	automato.setEstadoInicial("q1");
-	automato.addEstadosFinais("q4");
-	automato.addSimbolos("0,1,*");
-
-	automato.addTransicao("q1","q1","0");
-	automato.addTransicao("q1","q1","1");
-	automato.addTransicao("q1","q2","1");
-	automato.addTransicao("q2","q3","0");
-	automato.addTransicao("q2","q3","*");
-	automato.addTransicao("q3","q4","1");
-	automato.addTransicao("q4","q4","0");
-	automato.addTransicao("q4","q4","1");*/
-
-	/*automato.addEstados("q1,q2,q3");
-	automato.setEstadoInicial("q1");
-	automato.addEstadosFinais("q3");
-	automato.addSimbolos("0,1,*");
-
-	automato.addTransicao("q1","q1","0");
-	automato.addTransicao("q1","q2","*");
-	automato.addTransicao("q2","q3","0");
-	automato.addTransicao("q3","q2","1");*/
-
 	automato.addEstados("q1,q2,q3");
 	automato.setEstadoInicial("q1");
 	automato.addEstadosFinais("q2");
@@ -214,7 +190,6 @@ int main () {
 
 
 	automato.converter();
-	//automato.imprimirMatriz();
 }
 
 vector <string> picotar ( string modelo ) {
