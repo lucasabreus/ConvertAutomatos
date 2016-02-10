@@ -1,4 +1,4 @@
-#Converter Automato Finito Não Determinístico em Automato Finito Determinístico
+#Converter Automato Finito Não Determinístico em Automato Finito Determinístico#
 
 No arquivo ```automato.cpp``` está implementado uma classe chamada AFN 
 
