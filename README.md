@@ -19,11 +19,13 @@ automato.addTransicao("q1","q2","1");
 ```
 
 ##Transformar o AFN para AFD basta chamar a função 
-```automato.converter();
+```
+automato.converter();
 ```
 
-##Será mostrado os estados e as suas transições como no exemplo:##
-```*{ q1, q2 } (0) = {q1, q3}
+##Será mostrado os estados e as suas transições como no exemplo:
+``` 
+*{ q1, q2 } (0) = {q1, q3}
 *{ q1, q2 } (1) = {q1, q2, q3}
 *{ q1, q2, q3 } (0) = {q1, q3}
 *{ q1, q2, q3 } (1) = {q1, q2, q3}
