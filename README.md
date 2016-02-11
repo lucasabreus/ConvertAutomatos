@@ -37,3 +37,5 @@ automato.converter();
 { q3 } (0) = {q3}
 { q3 } (1) = {q1, q2}
 ```
+##Para modificar as entradas será necessário modificar o código ```automato.cpp```. Segue alguns exemplos no arquivo ```exemplos.txt```. 
+Obs: será necessário compilar novamente.
