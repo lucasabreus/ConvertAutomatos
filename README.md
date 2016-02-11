@@ -11,6 +11,7 @@ No arquivo ```automato.cpp``` está implementado uma classe chamada AFN
 automato.setEstadoInicial("q1");
 automato.addEstadosFinais("q2");
 automato.addSimbolos("0,1,*");
+//O Símbolo * simboliza o vázio (Ø)
 ```
 
 ##Para incluir uma transição:##
